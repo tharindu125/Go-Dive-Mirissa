@@ -16,8 +16,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    left: 25px;
+    bottom: 25px;
     z-index: 99;
 }
 
@@ -283,6 +283,15 @@
     transform: scale(1.1);
 }
 
+.category .Sub_section {
+    background-color: #ffffff95;
+    border: 1px solid #fff9f9;
+    margin: 5px !important;
+}
+
+.category .Sub_section h5 {
+    text-shadow: #FFFFFF 0px 0px 10px;
+}
 
 /*** Team ***/
 .team-item img {
@@ -382,9 +391,6 @@
     transition: .3s;
 }
 
-.footer .btn.btn-social:hover {
-    color: var(--primary);
-}
 
 .footer .btn.btn-link {
     display: block;
@@ -412,9 +418,9 @@
 }
 
 .footer .copyright {
-    padding: 25px 0;
+    padding: 10px 0;
     font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
+    border-top: 1px solid rgba(256, 256, 256, .3);
 }
 
 .footer .copyright a {
@@ -432,3 +438,61 @@
     padding-right: 0;
     border-right: none;
 }
+
+.btn-social {
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.btn-whatsapp { background-color: #25D366; }
+.btn-facebook { background-color: #1877F2; }
+.btn-youtube { background-color: #FF0000; }
+.btn-tripadvisor { background-color: #00AF87; }
+
+.btn-social:hover {
+    scale: 1.1;
+}
+
+.btn-social-1 {
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.btn-social-1:hover {
+    scale: 1.1;
+    color: var(--primary);
+}
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's on top of other content */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .whatsapp-button img {
+    width: 60px; /* Adjust this for size */
+    height: 60px; /* Ensures uniform scaling */
+    transition: transform 0.2s ease-in-out; /* Smooth scaling effect on hover */
+  }
+  
+  .whatsapp-button img:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+  }
