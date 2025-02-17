@@ -1,6 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    /* --primary: #06BBCC; */
+    /* --primary: #cccc06; */
+    --primary: #ffc107;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -256,6 +258,7 @@
 .service-item {
     background: var(--light);
     transition: .5s;
+    min-height: 300px;
 }
 
 .service-item:hover {
@@ -273,6 +276,10 @@
 
 
 /*** Categories & Courses ***/
+.service-content {
+    min-height: 180px;
+}
+
 .category img,
 .course-item img {
     transition: .5s;
