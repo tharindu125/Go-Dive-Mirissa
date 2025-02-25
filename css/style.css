@@ -79,6 +79,7 @@
 
 
 /*** Navbar ***/
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -119,7 +120,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--light);
     font-weight: 500;
 }
 
