@@ -281,6 +281,14 @@
     min-height: 180px;
 }
 
+ .course-item {
+    background-color: #ffc1070c;
+    border-radius: 15px;
+    /* border: 1px solid#181d3846; */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
 .category img,
 .course-item img {
     transition: .5s;
