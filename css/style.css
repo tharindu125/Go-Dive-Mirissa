@@ -512,3 +512,41 @@
   .whatsapp-button img:hover {
     transform: scale(1.1); /* Slightly larger on hover */
   }
+
+  .about {
+    background: linear-gradient(rgba(197, 246, 252, 0.645), rgba(255, 255, 255, 0.908)), url(../img/bg-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Team {
+    /* border-bottom: 1px solid hsla(47, 100%, 50%, 0.638);
+    border-top: 1px solid rgba(255, 200, 0, 0.638); */
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: linear-gradient(45deg,   rgba(0, 110, 255, 0.557), rgb(255, 255, 255), rgba(255, 255, 0, 0.557));
+    background-size: 300% 300%;
+    animation: gradiant 5s ease infinite;
+}
+
+
+  /* .about {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: linear-gradient(45deg,  rgb(1, 27, 48), rgb(255, 255, 255), rgb(247, 223, 114), rgb(255, 255, 255));
+    background-size: 200% 200%;
+    animation: gradiant 5s ease infinite;
+} */
+
+@keyframes gradiant {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
