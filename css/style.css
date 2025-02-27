@@ -310,8 +310,14 @@
 }
 
 /*** Team ***/
+.team-item {
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
 .team-item img {
     transition: .5s;
+    border-radius: 15px;
 }
 
 .team-item:hover img {
@@ -514,10 +520,15 @@
   }
 
   .about {
-    background: linear-gradient(rgba(197, 246, 252, 0.645), rgba(255, 255, 255, 0.908)), url(../img/bg-3.jpg);
+    background: linear-gradient(rgba(197, 246, 252, 0.645), rgba(255, 255, 255, 0.96)), url(../img/bg-3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.img-fluid {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #281f03b9;
 }
 
 .Team {
