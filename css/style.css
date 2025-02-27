@@ -273,11 +273,13 @@
     background: var(--light);
     transition: .5s;
     min-height: 300px;
+    box-shadow: 5px 5px 15px rgba(255, 166, 0, 0.3);
 }
 
 .service-item:hover {
     margin-top: -10px;
     background: var(--primary);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .service-item * {
@@ -543,7 +545,7 @@
 }
 
 .img-fluid {
-    border-radius: 15px;
+    /* border-radius: 5px; */
     box-shadow: 5px 5px 15px #281f03b9;
 }
 
@@ -555,6 +557,8 @@
     background: linear-gradient(45deg,   rgba(0, 110, 255, 0.557), rgb(255, 255, 255), rgba(255, 255, 0, 0.557));
     background-size: 300% 300%;
     animation: gradiant 5s ease infinite;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
 }
 
 
