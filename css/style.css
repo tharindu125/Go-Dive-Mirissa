@@ -173,6 +173,10 @@
         position: relative;
         min-height: 500px;
     }
+
+    .header-carousel .owl-carousel-item .container {
+        padding: 20px;
+    }
     
     .header-carousel .owl-carousel-item video {
         position: absolute;
@@ -186,6 +190,39 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .header-carousel .owl-carousel-item h5 {
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 20px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .header-carousel .owl-carousel-item h1 {
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 30px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .header-carousel .owl-carousel-item p {
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .slider_btn {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .header-carousel .owl-nav .owl-prev,
+    .header-carousel .owl-nav .owl-next {
+        display: none !important;
     }
 }
 
@@ -466,7 +503,7 @@
 
 .footer .copyright {
     padding: 10px 0;
-    font-size: 15px;
+    font-size: 12px;
     border-top: 1px solid rgba(256, 256, 256, .3);
 }
 
@@ -484,6 +521,26 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+@media (max-width: 768px) {
+    .footer .container h4 {
+        text-align: center;
+    }
+
+    .footer .container p {
+        padding-left: 20px;
+    }
+
+    .footer .container .btn-link {
+        padding-left: 20px;
+    }
+
+    .footer .Social_midea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .btn-social {
@@ -507,13 +564,13 @@
 
 .btn-social-1 {
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 15px;
     margin: 5px;
 }
 
