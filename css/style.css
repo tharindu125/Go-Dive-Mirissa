@@ -645,3 +645,11 @@
         background-position: 0% 50%;
     }
 }
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.204) !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon white */
+}
