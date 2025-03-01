@@ -462,6 +462,13 @@
 
 
 /*** Footer ***/
+.footer {
+    background: linear-gradient(rgba(93, 67, 0, 0.759), rgba(0, 0, 0, 0.5)), url(../img/footer-img.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -590,19 +597,19 @@
     cursor: pointer;
     z-index: 1000; /* Ensure it's on top of other content */
     text-decoration: none; /* Remove underline */
-  }
+}
   
-  .whatsapp-button img {
+.whatsapp-button img {
     width: 60px; /* Adjust this for size */
     height: 60px; /* Ensures uniform scaling */
     transition: transform 0.2s ease-in-out; /* Smooth scaling effect on hover */
-  }
-  
-  .whatsapp-button img:hover {
-    transform: scale(1.1); /* Slightly larger on hover */
-  }
+}
 
-  .about {
+.whatsapp-button img:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+.about {
     background: linear-gradient(rgba(197, 246, 252, 0.645), rgba(255, 255, 255, 0.96)), url(../img/bg-3.jpg);
     background-position: center center;
     background-size: cover;
