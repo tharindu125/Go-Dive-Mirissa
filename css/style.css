@@ -688,7 +688,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.651); /* Adjust the opacity (0.5 = 50% dark) */
+    background: rgba(89, 145, 184, 0.233); /* Adjust the opacity (0.5 = 50% dark) */
     z-index: -1;
 }
 
