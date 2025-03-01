@@ -661,7 +661,7 @@
     height: 80vh; /* Adjust as needed */
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(255, 183, 0, 0.3);
+    box-shadow: 5px 5px 15px rgba(52, 49, 116, 0.619);
 }
 
 .background-video {
@@ -690,6 +690,18 @@
     height: 100%;
     background: rgba(89, 145, 184, 0.233); /* Adjust the opacity (0.5 = 50% dark) */
     z-index: -1;
+}
+
+.detail-overlay {
+    position: absolute;
+    top: -20px;  /* Expands 20px above */
+    border-radius: 15px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 40px); /* Increases height by 40px (20px top + 20px bottom) */
+    background: rgba(255, 255, 255, 0.652);
+    z-index: -1;
+    pointer-events: none; /* Prevents interference with clicks */
 }
 
 
